@@ -1,5 +1,5 @@
 # heapq库，实现了优先队列算法
-1.heapq.heapify(x) 将list x 转换成堆，原地，线性时间内；br>2.heapq.heappush(heap, item)    将 item 的值加入 heap 中，保持堆的不变性。
+1.heapq.heapify(x) 将list x 转换成堆，原地，线性时间内；<br>2.heapq.heappush(heap, item)    将 item 的值加入 heap 中，保持堆的不变性。
 3.heapq.heappop(heap)    弹出并返回 heap 的最小的元素，保持堆的不变性。如果堆为空，抛出 IndexError 。
 4.使用 heap[0] ，可以只访问最小的元素而不弹出它
 5.heapq.heappushpop(heap, item)  将 item 放入堆中，然后弹出并返回 heap 的最小元素。该组合操作比先调用 heappush() 再调用 heappop() 运行起来更有效率。
